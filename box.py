@@ -142,7 +142,7 @@ class MainWindow(QMainWindow):
     VERSION = "1.0"
     # Follow Step 2 below to replace these URLs with your own GitHub RAW links
     VERSION_URL = "https://github.com/softloft08-ship-it/box-maker123/blob/main/version.txt"
-    UPDATE_URL = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/main.py"
+    UPDATE_URL = "https://github.com/softloft08-ship-it/box-maker123/blob/main/box.py"
 
     def __init__(self):
         super().__init__()
@@ -246,3 +246,4 @@ class MainWindow(QMainWindow):
 if __name__ == "__main__":
 
     app = QApplication(sys.argv); w = MainWindow(); w.show(); sys.exit(app.exec())
+
