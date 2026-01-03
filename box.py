@@ -141,7 +141,7 @@ class MainWindow(QMainWindow):
     # --- UPDATE SYSTEM SETTINGS ---
     VERSION = "1.0"
     # Follow Step 2 below to replace these URLs with your own GitHub RAW links
-    VERSION_URL = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/version.txt"
+    VERSION_URL = "https://github.com/softloft08-ship-it/box-maker123/blob/main/version.txt"
     UPDATE_URL = "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/main.py"
 
     def __init__(self):
@@ -244,4 +244,5 @@ class MainWindow(QMainWindow):
         if p: self.renderer.icons.append({'path': p, 'x': 300, 'y': 300, 'w': 150, 'h': 150, 'rect': QRect()}); self.renderer.needs_texture_update = True
 
 if __name__ == "__main__":
+
     app = QApplication(sys.argv); w = MainWindow(); w.show(); sys.exit(app.exec())
